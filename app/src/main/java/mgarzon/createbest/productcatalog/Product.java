@@ -37,7 +37,7 @@ public class Product {
         _price = price;
     }
     public double getPrice() {
-        return _price;
+        return int(_price);
     }
 }
 
